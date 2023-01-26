@@ -56,7 +56,7 @@ q
 
 
 ## Building the Software
-# Environment information
+### Environment information
 Tested with the following version:
 
 ```
@@ -65,7 +65,7 @@ Python 3.11.1 | Python needs to be >= 3.8.x
 pyinstaller 5.7.0
 ```
 
-## Preparation
+### Building Process
 Install Python 3
 ```
 https://www.python.org/downloads/
