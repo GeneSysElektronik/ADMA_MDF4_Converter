@@ -56,18 +56,31 @@ q
 
 
 ## Building the Software
+# Environment information
+Tested with the following version:
+
+```
+pip 22.3.1
+Python 3.11.1 | Python needs to be >= 3.8.x
+pyinstaller 5.7.0
+```
+
+## Preparation
 Install Python 3
 ```
 https://www.python.org/downloads/
 ```
 
-
-Install Python Installer
+Install needed tools
 ```bash
 pip install pyinstaller
+pip install pyinstaller pandas asammdf progress bs4
 ```
 
 Build the Software
 ```bash
+cd $ROOT_DIRECTORY_OF_ADMA_MDF4_CONVERTER
 pyinstaller -D --noconfirm -n "ADMA MDF4 Converter" -i "MDF4Converter.ico" --exclude-module scipy --exclude-module matplotlib --exclude-module PySide6 mdf4.py
 ```
+
+The built software is saved to root/dist/ADMA MDF4 Converter.
