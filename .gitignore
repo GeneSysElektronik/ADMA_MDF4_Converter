@@ -1,0 +1,7 @@
+build/
+dist/
+*.spec
+aöfjk.py
+*.MF4
+.vscode/launch.json
+*.exe

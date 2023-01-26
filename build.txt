@@ -1,0 +1,1 @@
+pyinstaller -D --noconfirm -n "ADMA MDF4 Converter" -i "MDF4Converter.ico" --exclude-module scipy --exclude-module matplotlib --exclude-module PySide6 mdf4.py
